@@ -1,0 +1,14 @@
+analysis:
+  enable_ml_predictions: false
+  historical_analysis_days: 30
+automation:
+  auto_backup: true
+  auto_priority_update: true
+  confidence_threshold: 0.7
+notification:
+  console_output: true
+  generate_reports: true
+safety:
+  backup_retention_days: 30
+  dry_run_mode: false
+  max_priority_changes_per_run: 3
