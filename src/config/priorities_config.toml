@@ -1,0 +1,71 @@
+[system]
+# Priorities Management System Configuration
+name = "Priority Management System"
+version = "1.0.0"
+description = "Enterprise task management and prioritization engine"
+
+[paths]
+# File system paths (can use environment variables)
+data_directory = "./data"
+reports_directory = "./reports"
+logs_directory = "./logs"
+templates_directory = "./src/templates"
+backup_directory = "./backups"
+
+[task_sources]
+# Configure where tasks are loaded from
+# Multiple sources can be enabled simultaneously
+markdown_files = { enabled = true, patterns = ["**/*TASKS*.md", "**/*TODO*.md", "**/*PRIORITIES*.md"] }
+json_files = { enabled = true, patterns = ["**/*tasks*.json", "**/*priorities*.json"] }
+csv_files = { enabled = false, patterns = ["**/*tasks*.csv"] }
+yaml_files = { enabled = false, patterns = ["**/*tasks*.yaml", "**/*tasks*.yml"] }
+
+[priority_engine]
+# Priority calculation parameters
+base_weights = { dependency = 0.3, time_sensitivity = 0.25, impact = 0.25, velocity = 0.2 }
+enable_ml_predictions = false
+historical_analysis_days = 30
+critical_path_multiplier = 1.5
+blocker_penalty_multiplier = 2.0
+
+[automation]
+# Automation behavior
+auto_backup = true
+auto_priority_update = true
+confidence_threshold = 0.7
+max_priority_changes_per_run = 3
+dry_run_mode = false
+
+[reporting]
+# Report generation settings
+generate_reports = true
+report_formats = ["markdown", "json", "html"]
+include_charts = true
+include_dependency_graph = true
+
+[notifications]
+# Output and notification settings
+console_output = true
+verbose_logging = false
+enable_email_notifications = false
+enable_slack_notifications = false
+
+[safety]
+# Safety and validation settings
+backup_retention_days = 30
+validate_before_changes = true
+require_confirmation_for_critical = true
+enable_rollback = true
+
+[integration]
+# External system integrations
+enable_vscode_integration = true
+enable_powershell_module = true
+enable_git_hooks = false
+
+[scf_compliance]
+# Structured Conversation Framework settings
+enable_scf_mode = true
+conversation_step_validation = true
+context_preservation = true
+progress_tracking = true

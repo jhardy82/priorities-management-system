@@ -1,0 +1,124 @@
+{
+  "tasks": [
+    {
+      "id": "sample-tasks_1_6843",
+      "title": "# Sample Tasks",
+      "description": "",
+      "status": "pending",
+      "priority": "medium",
+      "category": "workspace_management",
+      "estimated_minutes": 60,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087267",
+      "updated_at": "2025-06-03T00:28:10.087270"
+    },
+    {
+      "id": "sample-tasks_3_7118",
+      "title": "## High Priority",
+      "description": "",
+      "status": "pending",
+      "priority": "high",
+      "category": "workspace_management",
+      "estimated_minutes": 60,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087338",
+      "updated_at": "2025-06-03T00:28:10.087338"
+    },
+    {
+      "id": "sample-tasks_4_8924",
+      "title": "Critical Infrastructure Setup",
+      "description": "critical, 8h, infrastructure",
+      "status": "pending",
+      "priority": "critical",
+      "category": "infrastructure",
+      "estimated_minutes": 480,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087370",
+      "updated_at": "2025-06-03T00:28:10.087370"
+    },
+    {
+      "id": "sample-tasks_5_1989",
+      "title": "Database Schema Design",
+      "description": "high, 4h, infrastructure",
+      "status": "completed",
+      "priority": "high",
+      "category": "infrastructure",
+      "estimated_minutes": 240,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087396",
+      "updated_at": "2025-06-03T00:28:10.087396"
+    },
+    {
+      "id": "sample-tasks_6_3091",
+      "title": "Client Requirements Review",
+      "description": "high, 6h, client",
+      "status": "pending",
+      "priority": "high",
+      "category": "client_deliverable",
+      "estimated_minutes": 360,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087418",
+      "updated_at": "2025-06-03T00:28:10.087418"
+    },
+    {
+      "id": "sample-tasks_8_5973",
+      "title": "## Medium Priority",
+      "description": "",
+      "status": "pending",
+      "priority": "medium",
+      "category": "workspace_management",
+      "estimated_minutes": 60,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087443",
+      "updated_at": "2025-06-03T00:28:10.087443"
+    },
+    {
+      "id": "sample-tasks_10_353",
+      "title": "Unit Tests Implementation",
+      "description": "medium, 5h, quality",
+      "status": "pending",
+      "priority": "medium",
+      "category": "quality_automation",
+      "estimated_minutes": 300,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087469",
+      "updated_at": "2025-06-03T00:28:10.087469"
+    },
+    {
+      "id": "sample-tasks_12_836",
+      "title": "## Low Priority",
+      "description": "",
+      "status": "pending",
+      "priority": "low",
+      "category": "workspace_management",
+      "estimated_minutes": 60,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087492",
+      "updated_at": "2025-06-03T00:28:10.087492"
+    },
+    {
+      "id": "sample-tasks_13_8891",
+      "title": "Code Cleanup",
+      "description": "low, 2h, workspace",
+      "status": "pending",
+      "priority": "low",
+      "category": "workspace_management",
+      "estimated_minutes": 120,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087518",
+      "updated_at": "2025-06-03T00:28:10.087518"
+    },
+    {
+      "id": "sample-tasks_14_515",
+      "title": "Performance Optimization",
+      "description": "low, 4h, infrastructure",
+      "status": "pending",
+      "priority": "low",
+      "category": "infrastructure",
+      "estimated_minutes": 240,
+      "dependencies": [],
+      "created_at": "2025-06-03T00:28:10.087539",
+      "updated_at": "2025-06-03T00:28:10.087539"
+    }
+  ]
+}
