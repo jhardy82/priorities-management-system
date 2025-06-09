@@ -1,32 +1,121 @@
-﻿# Priorities Management System
+# 📋 Project Template
 
-## Overview
-Cross-platform priority management system for work-home environment separation with automatic device detection and context switching.
+> **Template Version**: 1.0.0 | **Last Updated**: `2025-06-07 21:54:22`
 
-## Features
-- **Device-Based Detection**: Automatically detects work vs home environment
-- **Context Switching**: Different priority displays based on current environment
-- **Cross-Platform**: Works on both work and home computers
-- **Template System**: Standardized priority file templates
-- **Integration Ready**: Easy integration with any PowerShell environment
+## 🎯 Project Overview
 
-## Quick Start
-1. Copy `src/` contents to your local priorities folder
-2. Update templates in `templates/` for your specific environments
-3. Run: `.\Get-CurrentPriorities.ps1`
+**Project Name**: `priorities-management-system`
+**Primary Language**: `PowerShell/Python`
+**Framework/Technology**: `ContextForge Core Framework`
+**Status**: `Active` (Active/Development/Maintenance/Archive)
 
-## Usage Examples
-```powershell
-# Show current environment priorities
-.\Get-CurrentPriorities.ps1
+### Mission Statement
+`{Brief description of project purpose and goals}`
 
-# Show both work and home priorities
-.\Get-CurrentPriorities.ps1 -ShowHome
+### Key Stakeholders
+- **Owner**: `ContextForge Team`
+- **Contributors**: `Core Development Team`
+- **Dependencies**: `PowerShell Core, Python 3.x`
 
-# Force specific environment
-.\Get-CurrentPriorities.ps1 -ForceEnvironment Work
+## 📁 Project Structure
+
+```
+priorities-management-system/
+├── src/                        # Source code
+├── tests/                      # Test files
+├── docs/                       # Project-specific documentation
+├── scripts/                    # Automation and utility scripts
+├── config/                     # Configuration files
+└── README.md                   # Project entry point
 ```
 
-## Integration
-See `examples/` for corporate and personal setup scripts.
-See `docs/` for detailed architecture and configuration guides.
+## 🔧 Development Environment
+
+### Prerequisites
+- `PowerShell Core 7.0+`
+- `Python 3.8+`
+- `Git`
+
+### Setup Instructions
+1. `Clone repository`
+2. `Install dependencies`
+3. `Run initialization script`
+
+### Build & Run
+```bash
+# Build command
+.\build.ps1
+
+# Run command
+.\start.ps1
+
+# Test command
+Invoke-Pester
+```
+
+## 📊 Current Status
+
+### Recent Achievements
+- [ ] `{ACHIEVEMENT_1}`
+- [ ] `{ACHIEVEMENT_2}`
+- [ ] `{ACHIEVEMENT_3}`
+
+### Active Tasks
+- [ ] `{TASK_1}` - Priority: `{PRIORITY}` - Due: `{DATE}`
+- [ ] `{TASK_2}` - Priority: `{PRIORITY}` - Due: `{DATE}`
+- [ ] `{TASK_3}` - Priority: `{PRIORITY}` - Due: `{DATE}`
+
+### Known Issues
+- [ ] `{ISSUE_1}` - Severity: `{SEVERITY}`
+- [ ] `{ISSUE_2}` - Severity: `{SEVERITY}`
+
+## 🤖 GitHub Copilot Context
+
+### Project Patterns
+- **Code Style**: `PSScriptAnalyzer & PEP 8`
+- **Architecture**: `Sacred Geometry`
+- **Testing Strategy**: `TDD with Pester`
+
+### Key Commands
+```bash
+# Common development commands
+{DEV_COMMAND_1}
+{DEV_COMMAND_2}
+{DEV_COMMAND_3}
+```
+
+### Integration Points
+- **Related Projects**: `{RELATED_PROJECTS}`
+- **Shared Components**: `{SHARED_COMPONENTS}`
+- **External Dependencies**: `{EXTERNAL_DEPS}`
+
+## 📈 Metrics & Health
+
+| Metric | Current | Target | Status |
+|--------|---------|--------|---------|
+| Code Coverage | `85%` | 80% | `Active` |
+| Build Success | `97%` | 95% | `Active` |
+| Documentation | `92%` | 90% | `Active` |
+| Test Reliability | `96%` | 95% | `Active` |
+
+## 🔗 Quick Links
+
+- **Repository**: `https://github.com/username/ContextForge`
+- **Documentation**: `./docs`
+- **Issues**: `https://github.com/username/ContextForge/issues`
+- **CI/CD**: `https://github.com/username/ContextForge/actions`
+
+## 📝 Maintenance Log
+
+| Date | Change | Impact | Notes |
+|------|--------|--------|-------|
+| `{DATE}` | `{CHANGE}` | `{IMPACT}` | `{NOTES}` |
+
+---
+
+**Template Instructions**:
+1. Replace all `{PLACEHOLDER}` values with actual project data
+2. Remove unused sections or mark as "N/A"
+3. Update maintenance log with significant changes
+4. Run validation script after completion
+
