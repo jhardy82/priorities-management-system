@@ -1,4 +1,4 @@
-# 🏢 Work Computer Environment - Avanade Enterprise PowerShell
+# 🏢 Work Computer Environment - [EMPLOYER_NAME] Enterprise PowerShell
 
 ## Current Priority Context (Auto-Updated)
 **Date**: May 25, 2025
@@ -10,7 +10,7 @@
 ## 🎯 WORK PRIORITIES (P0-P3)
 
 ### **P0 - Client Critical** (Immediate Action Required)
-- [ ] Win11FUActions deployment completion for PSE client
+- [ ] Win11FUActions deployment completion for [CLIENT_NAME] client
 - [ ] Any production SCCM issues requiring immediate resolution
 - [ ] Security compliance violations or audit findings
 
