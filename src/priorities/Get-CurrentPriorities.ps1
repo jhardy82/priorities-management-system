@@ -19,9 +19,9 @@ function Get-CurrentEnvironmentContext {
 
     # Detect work vs home environment based on computer name patterns
     # Work devices typically have corporate naming conventions
-    $isWorkDevice = $computerName -match "avanade|corp|work|laptop-\d+|pc-\d+|desktop-\d+" -or
+    $isWorkDevice = $computerName -match "corp|work|laptop-\d+|pc-\d+|desktop-\d+" -or
                     $computerName -match "^[a-z]{2,4}-\d+$" -or  # Corporate naming patterns
-                    $env:USERDNSDOMAIN -like "*avanade*"        # Domain check
+                    $env:USERDNSDOMAIN -like "*corp*"            # Domain check
 
     # Apply manual override if specified
     if ($ForceEnvironment -eq "Work") { $isWorkDevice = $true }
